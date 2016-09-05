@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.feature "Creates activities", :type => :feature do
-  scenario "User creates a new article" do
+  scenario "User creates a new activity" do
     visit "/"
     click_link "New Activity"
 
